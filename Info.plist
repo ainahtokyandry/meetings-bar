@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>MeetingsBar</string>
+	<key>CFBundleIdentifier</key>
+	<string>local.meetingsbar</string>
+	<key>CFBundleExecutable</key>
+	<string>MeetingsBar</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<!-- Without these macOS refuses calendar access without asking. The first is
+	     read from macOS 14, the second before it. -->
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>MeetingsBar lists today's meetings and reminds you before each one starts.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>MeetingsBar lists today's meetings and reminds you before each one starts.</string>
+</dict>
+</plist>

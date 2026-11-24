@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Build products
+MeetingsBar.app/
+*.o
+*.dSYM/
